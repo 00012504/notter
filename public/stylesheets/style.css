@@ -1,0 +1,78 @@
+body {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:azure;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+    height: 30px;
+   border: none;
+   background-color: azure; 
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav {
+  width: 5%;
+}
+
+ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  width: 80vw;
+  height: 60vh;
+}
+
+.note-card {
+  padding: 15px;
+  width: 300px;
+  height: 400px;
+  background-color: beige;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.note-card a {
+  text-decoration: none;
+  color:black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+form button {
+  width: 100px;
+}

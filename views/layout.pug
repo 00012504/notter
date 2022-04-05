@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header 
+      h1= "Notter"
+      nav
+        ul 
+          li 
+            a(href="/")
+              span= "Home"
+          li 
+            a(href="/notes")
+              span= "New"
+    block content
